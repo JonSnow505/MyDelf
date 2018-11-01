@@ -1,0 +1,2 @@
+python extract_features.py \  --config_path delf_config_example.pbtxt \  --list_images_path list_images.txt \  --output_dir data/oxford5k_features
+python match_images.py \  --image_1_path f1.jpg \  --image_2_path f3.jpg \  --features_1_path data/oxford5k_features/f1.delf \  --features_2_path data/oxford5k_features/f3.delf \  --output_image f13.png
